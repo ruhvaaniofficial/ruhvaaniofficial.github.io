@@ -2,94 +2,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RuhVaani - आधिकारिक वेबसाइट</title>
+  <title>RuhVaani - Official Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0e0e0e;
-      color: #fff;
+      background: linear-gradient(to right, #1e1e2f, #3c3b6e);
+      color: white;
     }
     header {
-      background: linear-gradient(120deg, #ff004f, #8c00ff);
       text-align: center;
-      padding: 3rem 1rem 2rem;
+      padding: 2rem 1rem;
     }
     header img {
-      width: 180px;
-      height: 180px;
+      width: 160px;
+      height: 160px;
       border-radius: 50%;
       object-fit: cover;
-      border: 5px solid #fff;
-      margin-bottom: 1rem;
+      border: 4px solid white;
     }
-    header h1 {
+    h1 {
+      margin-top: 1rem;
       font-size: 2.5rem;
-      margin: 0;
+      letter-spacing: 2px;
     }
-    header p {
+    .tagline {
       font-size: 1.2rem;
-      margin-top: 0.5rem;
       font-style: italic;
+      margin-top: 0.5rem;
+      color: #ffccff;
     }
     .links {
+      margin: 2rem 0;
       display: flex;
       justify-content: center;
+      gap: 1.2rem;
       flex-wrap: wrap;
-      gap: 1rem;
-      margin: 2rem 0;
     }
     .links a {
-      background: #1e1e1e;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
+      background-color: white;
+      color: #1e1e2f;
+      padding: 0.8rem 1.5rem;
       border-radius: 30px;
-      font-size: 1rem;
-      border: 1px solid #ff007a;
-      transition: 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
     }
     .links a:hover {
-      background: #ff007a;
+      transform: scale(1.05);
+      background-color: #ffccff;
     }
-    footer {
-      background: #1a1a1a;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      text-align: center;
-      color: #aaa;
-    }
-    section {
-      max-width: 700px;
-      margin: auto;
-      padding: 1rem;
-      line-height: 1.7;
-    }
-    h2 {
+    .contact {
       text-align: center;
       margin-top: 2rem;
-      color: #ff0099;
+    }
+    .contact a {
+      color: #ffccff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 4rem;
+      background-color: #111;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .policy {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      line-height: 1.6;
+      color: #eee;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="profile-photo.jpg" alt="RuhVaani">
+    <img src="assets/RuhVaani.png" alt="RuhVaani Profile Photo">
     <h1>RuhVaani</h1>
-    <p>Glamour Mein Lipti, Jazbaat Mein Basi Kahaniyaan</p>
+    <div class="tagline">Glamour Mein Lipti, Jazbaat Mein Basi Kahaniyaan</div>
   </header>  <div class="links">
-    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram</a>
-    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube</a>
-    <a href="https://amzn.to/3RtUoyh" target="_blank">Amazon Shop</a>
-  </div>  <section>
-    <h2>Privacy Policy</h2>
-    <p>यह वेबसाइट केवल जानकारी और एंटरटेनमेंट के उद्देश्य से बनाई गई है। आपकी गोपनीयता हमारे लिए महत्वपूर्ण है। हम किसी भी व्यक्तिगत जानकारी को साझा नहीं करते।</p>
-  </section>  <section>
-    <h2>Disclaimer</h2>
-    <p>यहाँ प्रदर्शित कहानियाँ और सामग्री पूरी तरह से काल्पनिक हैं और किसी व्यक्ति, संस्था या घटना से मेल खाना संयोग मात्र है। वेबसाइट पर दिए गए लिंक एफिलिएट हो सकते हैं जिससे हमें एक छोटा कमीशन मिल सकता है।</p>
-  </section>  <footer>
-    © 2025 RuhVaani | Designed with love for emotions & stories
+    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://amzn.to/3EzfPuT" target="_blank"><i class="fas fa-shopping-cart"></i> Amazon Store</a>
+  </div>  <div class="contact">
+    संपर्क करें: <a href="mailto:ruhvaaniofficial@gmail.com">ruhvaaniofficial@gmail.com</a>
+  </div>  <div class="policy">
+    <h2>प्राइवेसी पॉलिसी</h2>
+    हम आपकी गोपनीयता का सम्मान करते हैं। इस वेबसाइट पर दी गई किसी भी जानकारी को हम कभी भी शेयर या बेचा नहीं जाएगा। आपके द्वारा साझा किए गए किसी भी व्यक्तिगत विवरण का उपयोग केवल आपके अनुभव को बेहतर बनाने के लिए किया जाएगा।<h2>डिस्क्लेमर</h2>
+इस वेबसाइट पर प्रदर्शित सभी सामग्री केवल मनोरंजन और जानकारी हेतु है। सभी सोशल लिंक और प्रोडक्ट लिंक आपकी सुविधा के लिए दिए गए हैं। कृपया किसी भी निर्णय से पहले स्वयं जाँच करें। इस साइट पर दिखाए गए किसी भी उत्पाद की खरीदारी आपकी इच्छा पर निर्भर करती है।
+
+  </div>  <footer>
+    © RuhVaani Team | All Rights Reserved
   </footer>
 </body>
 </html>
