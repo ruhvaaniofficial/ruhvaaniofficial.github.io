@@ -2,115 +2,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Welcome to RuhVaani's official site. Follow on YouTube, Instagram, Facebook. Visit the Amazon Shop. Read the Privacy Policy." />
   <title>RuhVaani | Official Website</title>
-  <link rel="icon" type="image/png" href="RuhVaani.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #121212;
-      color: #fff;
-      line-height: 1.6;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
     }
-    header {
-      background: linear-gradient(45deg, #ff0055, #ff9900);
-      padding: 2rem 1rem 4rem;
+    body {
+      background: linear-gradient(to bottom right, #1f1f1f, #3a3a3a);
+      color: white;
       text-align: center;
-      position: relative;
+      padding: 40px 20px;
     }
-    header img {
-      width: 180px;
-      height: auto;
-      border-radius: 1rem;
-      margin-top: 1rem;
-      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    img.profile {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 2.5rem;
-      margin: 1rem 0 0.2rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 10px;
     }
     p.tagline {
-      font-size: 1.2rem;
-      color: #ffe5e5;
-      margin: 0;
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 30px;
+      color: #ffcccc;
     }
-    nav {
-      margin-top: 2rem;
-    }
-    nav a {
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      font-size: 18px;
       text-decoration: none;
-      color: #fff;
-      background-color: #ff0055;
-      padding: 0.6rem 1.2rem;
-      margin: 0.3rem;
-      border-radius: 30px;
-      display: inline-block;
+      padding: 10px 15px;
+      border: 1px solid white;
+      border-radius: 8px;
       transition: all 0.3s ease;
-    }
-    nav a:hover {
-      background-color: #ff3366;
-      box-shadow: 0 0 10px #ff99aa;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .section-title {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #ff0055;
       display: inline-block;
     }
-    .contact-box {
-      background-color: #1e1e1e;
-      padding: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 0 8px rgba(255,255,255,0.1);
-      text-align: center;
+    .social-links a:hover {
+      background-color: #ff0080;
+      color: white;
+      transform: scale(1.05);
     }
-    .contact-box a {
-      color: #ffccdd;
+    .section {
+      margin: 50px 0;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #ff0080;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
       text-decoration: none;
+      margin-top: 20px;
+      font-weight: bold;
+      transition: background 0.3s;
     }
-    .contact-box a:hover {
-      text-decoration: underline;
-      color: #ff99aa;
+    a.button:hover {
+      background-color: #e60073;
     }
     footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.8rem;
-      color: #ccc;
-      border-top: 1px solid #333;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="RuhVaani.png" alt="RuhVaani Profile Photo">
-    <h1>RuhVaani</h1>
-    <p class="tagline">Dil se... Kahaniyaan, Jazbaat aur Andaaz</p>
-    <nav>
-      <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">Subscribe on YouTube</a>
-      <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Follow on Instagram</a>
-      <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Follow on Facebook</a>
-      <a href="https://amzn.to/3RtUoyh" target="_blank">Amazon Shop</a>
-    </nav>
-  </header>  <section>
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-box">
-      <p>For collaborations and inquiries, email me:</p>
-      <p><a href="mailto:ruhvaaniofficial@gmail.com">ruhvaaniofficial@gmail.com</a></p>
-    </div>
-  </section>  <section>
-    <h2 class="section-title">Privacy Policy & Disclaimer</h2>
-    <p>This is the official website of RuhVaani. We respect your privacy completely. We do not collect, store, or sell any personal information from our visitors.</p>
-    <p>All external links (YouTube, Instagram, Facebook, Amazon) are provided for user convenience. Clicking them will take you to their respective platforms and are not governed by our privacy practices.</p>
-    <p>We do not authorize anyone to misuse or copy our content or images for commercial or personal gains. Any such activity is prohibited.</p>
-    <p>This site is created for brand presence, audience engagement, and ethical content sharing only.</p>
-  </section>  <footer>
+  <img src="RuhVaani.png" alt="RuhVaani Profile" class="profile" />
+  <h1>RuhVaani</h1>
+  <p class="tagline">"Dil se, Jazbaat tak... RuhVaani ke saath."</p>  <div class="social-links">
+    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">Subscribe on YouTube</a>
+    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Follow on Instagram</a>
+    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Follow on Facebook</a>
+    <a href="mailto:ruhvaaniofficial@gmail.com" target="_blank">Contact via Email</a>
+    <a href="https://amzn.to/3RtUoyh" target="_blank">Amazon Shop</a>
+  </div>  <div class="section">
+    <h2>Privacy Policy</h2>
+    <p>
+      We value your trust. Your data is safe and never misused. We don't share your personal information or use it in any manipulative way. This platform only showcases RuhVaani’s creative content and affiliate recommendations. Your privacy is our priority.
+    </p>
+  </div>  <div class="section">
+    <h2>Disclaimer</h2>
+    <p>
+      All the content you see here is for entertainment and storytelling purposes. Any resemblance to actual people or events is purely coincidental. Product links may be affiliate links, helping support our content.
+    </p>
+  </div>  <footer>
     &copy; 2025 RuhVaani. All rights reserved.
   </footer>
 </body>
