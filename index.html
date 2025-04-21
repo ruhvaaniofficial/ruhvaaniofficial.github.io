@@ -1,115 +1,102 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="hi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RuhVaani - Official</title>
+  <title>RuhVaani - Official Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --primary-color: #e91e63;
-      --bg-color: #1a1a1a;
-      --text-color: #ffffff;
-      --button-color: #ff4081;
-      --hover-color: #f06292;
-    }body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.container {
-  max-width: 800px;
-  padding: 20px;
-}
-
-.profile-pic {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid var(--button-color);
-  box-shadow: 0 0 20px rgba(255, 64, 129, 0.6);
-  margin: 40px auto 20px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin: 0;
-  color: var(--primary-color);
-}
-
-.tagline {
-  font-size: 1.2rem;
-  margin: 10px 0 30px;
-  color: #f8c6d4;
-  font-style: italic;
-}
-
-.link-button {
-  display: block;
-  margin: 10px auto;
-  padding: 12px 25px;
-  font-size: 1rem;
-  color: white;
-  background-color: var(--button-color);
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background 0.3s;
-  text-decoration: none;
-}
-
-.link-button:hover {
-  background-color: var(--hover-color);
-}
-
-footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: #aaa;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .tagline {
-    font-size: 1rem;
-  }
-  .profile-pic {
-    width: 160px;
-    height: 160px;
-  }
-}
-
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #1c1c2e, #3e2f53);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .profile {
+      max-width: 250px;
+      border-radius: 2rem;
+      box-shadow: 0 10px 25px rgba(255, 192, 203, 0.4);
+      margin-top: 40px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .tagline {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #f7c3f0;
+      text-align: center;
+    }
+    .links {
+      margin: 40px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+    .links a {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 12px 20px;
+      border-radius: 12px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      background: #f7c3f0;
+      color: #1c1c2e;
+    }
+    .section {
+      margin-top: 60px;
+      max-width: 800px;
+      text-align: center;
+      line-height: 1.8;
+      font-size: 0.95rem;
+      padding: 0 10px;
+    }
+    .section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #f7c3f0;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.8rem;
+      color: #aaa;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="RuhVaani.png" alt="RuhVaani" class="profile-pic" />
-    <h1>RuhVaani</h1>
-    <p class="tagline">Jazbaaton ki awaaz, har kahaani mein ek ehsaas</p><a href="https://www.facebook.com/ruhvaaniofficial" class="link-button" target="_blank">Facebook</a>
-<a href="https://www.instagram.com/ruhvaaniofficial" class="link-button" target="_blank">Instagram</a>
-<a href="https://www.youtube.com/@ruhvaaniofficial" class="link-button" target="_blank">YouTube</a>
-<a href="https://amzn.to/3RtUoyh" class="link-button" target="_blank">My Amazon Shop</a>
-<a href="#privacy" class="link-button">Privacy Policy</a>
-<a href="#disclaimer" class="link-button">Disclaimer</a>
-
-<footer>
-  <p>&copy; 2025 RuhVaani. All rights reserved.</p>
-</footer>
-
-  </div>  <div class="container" id="privacy">
+  <img src="RuhVaani.png" alt="RuhVaani" class="profile" />
+  <h1>RuhVaani</h1>
+  <div class="tagline">जहाँ हर एहसास एक कहानी है... और हर कहानी में है रूह की वाणी</div>  <div class="links">
+    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook Page</a>
+    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube Channel</a>
+    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram Profile</a>
+    <a href="https://amzn.to/3RtUoyh" target="_blank">My Amazon Shop</a>
+    <a href="mailto:ruhvaaniofficial@gmail.com">Contact: ruhvaaniofficial@gmail.com</a>
+  </div>  <div class="section">
     <h2>Privacy Policy</h2>
-    <p>Your privacy is important to us. We do not collect personal data unless you voluntarily provide it. All third-party links follow their respective policies.</p>
-  </div>  <div class="container" id="disclaimer">
-    <h2>Disclaimer</h2>
-    <p>This website contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All views and content are for entertainment purposes only.</p>
-  </div>
+    <p>यह वेबसाइट सिर्फ आपके साथ भावनात्मक और प्रेरणात्मक कंटेंट साझा करने के लिए है। इस पर मौजूद सभी फोटो, वीडियो और लेख सिर्फ RuhVaani की अनुमति से ही उपयोग किए जा सकते हैं। किसी भी सामग्री को बिना हमारी लिखित अनुमति के उपयोग करना कानूनी रूप से वर्जित है। हम आपकी किसी भी जानकारी को थर्ड पार्टी के साथ शेयर नहीं करते हैं।</p><h2 style="margin-top:30px;">Disclaimer</h2>
+<p>RuhVaani पर प्रस्तुत सभी कंटेंट सिर्फ एंटरटेनमेंट, मोटिवेशन और इमोशनल जुड़ाव के उद्देश्य से बनाए जाते हैं। यह किसी भी प्रकार की पेशेवर सलाह नहीं है। वेबसाइट पर मौजूद एफिलिएट लिंक (जैसे Amazon) से हमें कमीशन प्राप्त हो सकता है, लेकिन इससे आपके लिए कोई अतिरिक्त शुल्क नहीं जुड़ता। हमारी सामग्री की जिम्मेदारी केवल दर्शकों के अनुभव तक सीमित है।</p>
+
+  </div>  <footer>
+    © 2025 RuhVaani. सभी अधिकार सुरक्षित हैं।<br />Made with love for your soul.
+  </footer>
 </body>
 </html>
