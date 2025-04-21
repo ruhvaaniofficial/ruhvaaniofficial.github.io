@@ -4,109 +4,111 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RuhVaani - Official Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Mukta', sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
     body {
-      background: linear-gradient(to bottom right, #000000, #1a1a1a);
-      color: white;
+      background: linear-gradient(to bottom right, #1c1c2e, #3e2f53);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 20px;
-      text-align: center;
     }
-    img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid #ff4081;
-      margin-bottom: 20px;
+    .profile {
+      max-width: 250px;
+      border-radius: 2rem;
+      box-shadow: 0 10px 25px rgba(255, 192, 203, 0.4);
+      margin-top: 40px;
     }
     h1 {
       font-size: 2.5rem;
-      color: #ff4081;
+      margin-top: 20px;
+      text-align: center;
     }
-    p.tagline {
+    .tagline {
+      margin-top: 10px;
       font-size: 1.2rem;
-      margin: 10px 0 30px;
-      color: #e0e0e0;
+      font-weight: 400;
+      color: #f7c3f0;
+      text-align: center;
     }
-    .buttons {
+    .links {
+      margin: 40px 0;
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 30px;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 400px;
     }
-    a.button {
-      background: #ff4081;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 30px;
+    .links a {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 12px 20px;
+      border-radius: 12px;
+      color: #fff;
+      text-align: center;
       text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(255, 64, 129, 0.4);
-      transition: 0.3s;
+      font-weight: 600;
+      transition: all 0.3s ease;
     }
-    a.button:hover {
-      background: #e73370;
-      box-shadow: 0 6px 18px rgba(255, 64, 129, 0.6);
+    .links a:hover {
+      background: #f7c3f0;
+      color: #1c1c2e;
     }
     .section {
-      margin: 40px 0;
-    }
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      color: #ff80ab;
-    }
-    p.policy {
+      margin-top: 60px;
       max-width: 800px;
-      margin: 0 auto 20px;
-      line-height: 1.6;
-      font-size: 1rem;
-      color: #d0d0d0;
+      text-align: center;
+      line-height: 1.8;
+      font-size: 0.95rem;
+      padding: 0 10px;
+    }
+    .section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #f7c3f0;
     }
     footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #888;
+      margin-top: 60px;
+      font-size: 0.8rem;
+      color: #aaa;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 20px;
+      max-width: 600px;
     }
   </style>
 </head>
 <body>
-  <img src="./profile.jpg" alt="RuhVaani Profile" />
+  <img src="RuhVaani.png" alt="RuhVaani" class="profile" />
   <h1>RuhVaani</h1>
-  <p class="tagline">Jazbaaton se judī kahāniyā̃, jo dil chu jāyẽ...</p>
+  <div class="tagline">जहाँ हर एहसास एक कहानी है... और हर कहानी में है रूह की वाणी</div>
 
-  <div class="buttons">
-    <a href="https://www.facebook.com/ruhvaaniofficial" class="button" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/ruhvaaniofficial" class="button" target="_blank">Instagram</a>
-    <a href="https://www.youtube.com/@ruhvaaniofficial" class="button" target="_blank">YouTube</a>
-    <a href="https://amzn.to/3RtUoyh" class="button" target="_blank">Amazon Shop</a>
-    <a href="mailto:ruhvaaniofficial@gmail.com" class="button">Email: ruhvaaniofficial@gmail.com</a>
+  <div class="links">
+    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook Page</a>
+    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube Channel</a>
+    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram Profile</a>
+    <a href="https://amzn.to/3RtUoyh" target="_blank">My Amazon Shop</a>
+    <a href="mailto:ruhvaaniofficial@gmail.com">Contact: ruhvaaniofficial@gmail.com</a>
   </div>
 
   <div class="section">
     <h2>Privacy Policy</h2>
-    <p class="policy">
-      इस वेबसाइट पर साझा की गई सभी कहानियाँ, चित्र और भावनात्मक सामग्री केवल RuhVaani के अधिकार क्षेत्र में आती हैं। कोई भी तीसरा पक्ष इन्हें बिना अनुमति के कॉपी, पुनःप्रकाशन या पुनः उपयोग नहीं कर सकता। हम आपकी व्यक्तिगत जानकारी की सुरक्षा के लिए पूरी तरह प्रतिबद्ध हैं और इसे किसी के साथ साझा नहीं किया जाएगा।
-    </p>
-  </div>
+    <p>यह वेबसाइट केवल मनोरंजन और भावनात्मक अनुभव साझा करने के उद्देश्य से संचालित की जाती है। इस पर प्रस्तुत सभी कंटेंट, फोटो और वीडियो सिर्फ RuhVaani की मौलिक रचनाएँ हैं और इनका पुनःप्रयोग हमारी पूर्व अनुमति के बिना वर्जित है। हम आपके किसी भी व्यक्तिगत डेटा को न तो संग्रह करते हैं, न ही किसी थर्ड पार्टी के साथ साझा करते हैं।</p>
 
-  <div class="section">
-    <h2>Disclaimer</h2>
-    <p class="policy">
-      यह वेबसाइट एक व्यक्तिगत ब्रांड प्रतिनिधित्व है और यहाँ प्रदर्शित सभी लिंक, कंटेंट और विचार केवल RuhVaani से संबंधित हैं। Amazon लिंक एक एफिलिएट लिंक है जिससे हमें कुछ कमीशन मिल सकता है, पर इसका आपकी कीमत पर कोई असर नहीं होगा। हम किसी प्रकार की हानि या नुकसान के लिए उत्तरदायी नहीं हैं।
-    </p>
+    <h2 style="margin-top:30px;">Disclaimer</h2>
+    <p>RuhVaani पर साझा की गई सभी कहानियाँ और कंटेंट केवल एंटरटेनमेंट, इंस्पिरेशन और भावनात्मक जुड़ाव के लिए हैं। यह किसी प्रकार की कानूनी, चिकित्सीय या व्यावसायिक सलाह नहीं है। कुछ लिंक एफिलिएट हो सकते हैं, जिससे हमें एक छोटा कमीशन मिल सकता है — लेकिन इसका आपकी खरीद पर कोई असर नहीं पड़ता। आप जो भी अनुभव करते हैं, वह आपकी व्यक्तिगत पसंद पर आधारित है।</p>
   </div>
 
   <footer>
-    © RuhVaani 2025 | सभी अधिकार सुरक्षित हैं।
+    © 2025 RuhVaani. सभी अधिकार सुरक्षित हैं।<br>
+    यह वेबसाइट आपके दिल और आत्मा को छूने के लिए बनाई गई है — विश्वास के साथ, प्रेम के साथ।
   </footer>
 </body>
 </html>
