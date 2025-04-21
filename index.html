@@ -1,104 +1,115 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RuhVaani - Official Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <title>RuhVaani - Official</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background: linear-gradient(to bottom right, #1c1c2e, #3e2f53);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-    }
-    .profile {
-      max-width: 250px;
-      border-radius: 2rem;
-      box-shadow: 0 10px 25px rgba(255, 192, 203, 0.4);
-      margin-top: 40px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-top: 20px;
-      text-align: center;
-    }
-    .tagline {
-      margin-top: 10px;
-      font-size: 1.2rem;
-      font-weight: 400;
-      color: #f7c3f0;
-      text-align: center;
-    }
-    .links {
-      margin: 40px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-      max-width: 400px;
-    }
-    .links a {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 12px 20px;
-      border-radius: 12px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-    .links a:hover {
-      background: #f7c3f0;
-      color: #1c1c2e;
-    }
-    .section {
-      margin-top: 60px;
-      max-width: 800px;
-      text-align: center;
-      line-height: 1.8;
-      font-size: 0.95rem;
-      padding: 0 10px;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 0.8rem;
-      color: #aaa;
-    }
+    :root {
+      --primary-color: #e91e63;
+      --bg-color: #1a1a1a;
+      --text-color: #ffffff;
+      --button-color: #ff4081;
+      --hover-color: #f06292;
+    }body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--button-color);
+  box-shadow: 0 0 20px rgba(255, 64, 129, 0.6);
+  margin: 40px auto 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin: 10px 0 30px;
+  color: #f8c6d4;
+  font-style: italic;
+}
+
+.link-button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background-color: var(--hover-color);
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .tagline {
+    font-size: 1rem;
+  }
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+  }
+}
+
   </style>
 </head>
 <body>
-  <img src="RuhVaani.png" alt="RuhVaani" class="profile" />
-  <h1>RuhVaani</h1>
-  <div class="tagline">जहाँ कहानियाँ रूह छूती हैं... वहीं से शुरू होती है RuhVaani</div>
+  <div class="container">
+    <img src="RuhVaani.png" alt="RuhVaani" class="profile-pic" />
+    <h1>RuhVaani</h1>
+    <p class="tagline">Jazbaaton ki awaaz, har kahaani mein ek ehsaas</p><a href="https://www.facebook.com/ruhvaaniofficial" class="link-button" target="_blank">Facebook</a>
+<a href="https://www.instagram.com/ruhvaaniofficial" class="link-button" target="_blank">Instagram</a>
+<a href="https://www.youtube.com/@ruhvaaniofficial" class="link-button" target="_blank">YouTube</a>
+<a href="https://amzn.to/3RtUoyh" class="link-button" target="_blank">My Amazon Shop</a>
+<a href="#privacy" class="link-button">Privacy Policy</a>
+<a href="#disclaimer" class="link-button">Disclaimer</a>
 
-  <div class="links">
-    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook Page</a>
-    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube Channel</a>
-    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram Profile</a>
-    <a href="https://amzn.to/3EzfPuT" target="_blank">My Amazon Shop</a>
-    <a href="mailto:ruhvaaniofficial@gmail.com" target="_blank">Contact via Email</a>
-  </div>
+<footer>
+  <p>&copy; 2025 RuhVaani. All rights reserved.</p>
+</footer>
 
-  <div class="section">
+  </div>  <div class="container" id="privacy">
     <h2>Privacy Policy</h2>
-    <p>हम आपकी प्राइवेसी का पूरा ध्यान रखते हैं। यह वेबसाइट सिर्फ मनोरंजन, कंटेंट और जानकारी साझा करने के उद्देश्य से बनाई गई है। आपकी कोई भी व्यक्तिगत जानकारी कभी किसी थर्ड पार्टी से साझा नहीं की जाती।</p>
-
-    <h2 style="margin-top:30px;">Disclaimer</h2>
-    <p>इस वेबसाइट पर मौजूद लिंक और कंटेंट सिर्फ जानकारी के लिए हैं। कुछ लिंक एफिलिएट हो सकते हैं जिससे हमें छोटा कमीशन मिल सकता है, लेकिन इससे आपके प्रोडक्ट के प्राइस पर कोई फर्क नहीं पड़ता।</p>
+    <p>Your privacy is important to us. We do not collect personal data unless you voluntarily provide it. All third-party links follow their respective policies.</p>
+  </div>  <div class="container" id="disclaimer">
+    <h2>Disclaimer</h2>
+    <p>This website contains affiliate links. If you purchase through them, we may earn a commission at no extra cost to you. All views and content are for entertainment purposes only.</p>
   </div>
-
-  <footer>
-    © 2025 RuhVaani. All rights reserved.
-  </footer>
 </body>
 </html>
