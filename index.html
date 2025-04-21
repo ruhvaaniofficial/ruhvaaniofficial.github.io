@@ -1,92 +1,112 @@
-<!DOCTYPE html><html lang="hi"><head>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="RuhVaani - Official Website. Connect on Instagram, Facebook, YouTube. For business and sponsorships contact via email. Explore my Amazon recommendations." />
-  <title>RuhVaani | Official Links & Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RuhVaani - Official Website</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
+      margin: 0;
       font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to bottom right, #1f1f1f, #3a3a3a);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 2rem;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      color: #333;
     }
-    img {
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header img {
       width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1.2rem;
-      border: 4px solid #ff0077;
-      box-shadow: 0 0 20px rgba(255, 0, 119, 0.5);
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     }
     h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 2.2rem;
-      color: #ff0077;
-      margin-bottom: 0.5rem;
+      font-size: 2.5em;
+      margin: 20px 0 10px;
+      color: #000;
     }
     p.tagline {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
-      color: #ffdbe7;
+      font-size: 1.2em;
+      color: #444;
+      margin-bottom: 30px;
     }
-    a.button {
-      display: block;
-      margin: 0.5rem auto;
-      padding: 0.75rem 1.5rem;
-      background: #ff0077;
-      color: white;
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .links a {
       text-decoration: none;
+      background: #ff4081;
+      color: white;
+      padding: 12px 25px;
       border-radius: 30px;
       font-weight: bold;
-      box-shadow: 0 0 10px rgba(255, 0, 119, 0.4);
+      font-size: 1em;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
       transition: transform 0.2s ease;
-      max-width: 300px;
     }
-    a.button:hover {
+    .links a:hover {
       transform: scale(1.05);
     }
     .section {
-      margin-top: 2rem;
+      background: white;
+      padding: 30px 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #ff4081;
     }
     footer {
-      margin-top: 3rem;
-      font-size: 0.85rem;
-      color: #aaa;
-      max-width: 800px;
-      line-height: 1.6;
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #777;
     }
-    @media(max-width: 500px) {
-      h1 {
-        font-size: 1.7rem;
-      }
-      p.tagline {
-        font-size: 1rem;
-      }
+    @media(max-width: 600px){
+      h1 { font-size: 2em; }
+      .links a { width: 80%; text-align: center; }
     }
   </style>
-</head><body>
-  <img src="profile.jpg" alt="RuhVaani Profile">
-  <h1>RuhVaani</h1>
-  <p class="tagline">Dil se... Darr se... Mohabbat tak — हर एहसास मेरी कहानी</p><a class="button" href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Follow on Instagram</a> <a class="button" href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Like on Facebook</a> <a class="button" href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">Subscribe on YouTube</a> <a class="button" href="https://amzn.to/3RtUoyh" target="_blank">Shop via My Amazon Link</a> <a class="button" href="mailto:ruhvaaniofficial@gmail.com">Contact Me</a>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/ruhvaaniofficial/website/main/profile.jpg" alt="RuhVaani Profile Photo">
+    <h1>RuhVaani</h1>
+    <p class="tagline">Dil Se... Har Pal Ek Kahaani</p>
+  </header>
+
+  <div class="links">
+    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube</a>
+    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook</a>
+    <a href="mailto:ruhvaaniofficial@gmail.com">Contact</a>
+    <a href="https://amzn.to/3RtUoyh" target="_blank">My Amazon Store</a>
+  </div>
 
   <div class="section">
-    <a class="button" href="#privacy">Privacy Policy</a>
-    <a class="button" href="#disclaimer">Disclaimer</a>
-  </div>  <footer>
-    <h2 id="privacy">Privacy Policy</h2>
-    <p>आपकी गोपनीयता हमारे लिए बहुत महत्वपूर्ण है। इस वेबसाइट पर दी गई कोई भी व्यक्तिगत जानकारी जैसे ईमेल, नाम आदि को कभी साझा या बेचा नहीं जाएगा। यदि आप किसी लिंक पर क्लिक करते हैं जो तृतीय पक्ष वेबसाइट की ओर जाता है, तो कृपया उनकी नीतियों को पढ़ें।</p><h2 id="disclaimer" style="margin-top: 2rem;">Disclaimer</h2>
-<p>इस वेबसाइट पर सभी लिंक केवल सूचना और सुविधा के लिए दिए गए हैं। अमेज़न लिंक हमारे एफिलिएट अकाउंट से जुड़े हैं और वहां से की गई किसी भी खरीद से हमें कमीशन मिल सकता है। वेबसाइट पर दिखाया गया सारा कंटेंट, फोटो, और वीडियो हमारी मेहनत और रचनात्मकता का परिणाम है — इन्हें कॉपी करना या दुरुपयोग करना कानूनी रूप से निषिद्ध है। सभी अधिकार सुरक्षित हैं।</p>
+    <h2>Privacy Policy</h2>
+    <p>हम आपकी गोपनीयता का पूरा सम्मान करते हैं। इस वेबसाइट पर किसी प्रकार का डाटा कलेक्शन या ट्रैकिंग नहीं की जाती। सभी लिंक सीधे Facebook, YouTube, Instagram और Amazon से जुड़े हैं।</p>
+  </div>
 
+  <div class="section">
+    <h2>Disclaimer</h2>
+    <p>यह वेबसाइट केवल व्यक्तिगत ब्रांडिंग के उद्देश्य से बनाई गई है। इसमें दिए गए लिंक उपयोगकर्ता की सुविधा के लिए हैं और किसी भी प्लेटफॉर्म से आधिकारिक रूप से संबंधित नहीं हैं। Amazon लिंक एक एफिलिएट लिंक है जिससे हमें कुछ कमीशन प्राप्त हो सकता है।</p>
+  </div>
+
+  <footer>
+    © 2025 RuhVaani | All Rights Reserved.
   </footer>
-</body></html>
+
+</body>
+</html>
