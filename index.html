@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RuhVaani - Hindi Storyteller | Emotional & Romantic AI Stories</title>
-  <meta name="description" content="RuhVaani एक खूबसूरत डिजिटल यात्रा है जहाँ हर एहसास एक कहानी बनकर सामने आता है। Facebook, YouTube, Instagram और Amazon पर हमारा साथ दें।" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <title>RuhVaani Official</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" />
   <style>
     * {
       margin: 0;
@@ -14,145 +13,146 @@
       font-family: 'Poppins', sans-serif;
     }
     body {
-      background: linear-gradient(to bottom right, #1c1b2f, #4b2c5a);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px 10px;
-    }
-    .profile {
-      max-width: 250px;
-      border-radius: 2rem;
-      box-shadow: 0 10px 25px rgba(255, 192, 203, 0.4);
-      margin-top: 40px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-top: 20px;
-      text-align: center;
-    }
-    .tagline {
-      margin-top: 10px;
-      font-size: 1.2rem;
-      font-weight: 400;
-      color: #f7c3f0;
-      text-align: center;
-    }
-    .links {
-      margin: 40px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-      max-width: 400px;
-    }
-    .links a {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      padding: 12px 20px;
-      border-radius: 12px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-    .links a:hover {
-      background: #f7c3f0;
-      color: #1c1b2f;
-    }
-    .section {
-      margin-top: 60px;
-      max-width: 800px;
-      text-align: center;
-      line-height: 1.8;
-      font-size: 0.95rem;
-      padding: 0 10px;
-    }
-    .section h2 {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
-      color: #f7c3f0;
-    }
-    .section p {
-      margin-bottom: 20px;
-    }
-    .contact-btn {
-      margin-top: 10px;
-    }
-    .contact-btn a {
-      background: #f7c3f0;
-      color: #1c1b2f;
-      padding: 12px 25px;
-      border-radius: 12px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      transition: 0.3s;
-    }
-    .contact-btn a:hover {
-      background: #fff;
-      color: #4b2c5a;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 0.8rem;
-      color: #aaa;
-      text-align: center;
-      border-top: 1px solid rgba(255,255,255,0.1);
-      padding-top: 20px;
-      max-width: 600px;
+      background: #121212;
+      color: #ffffff;
       line-height: 1.6;
     }
-    .email-block {
-      background: rgba(255, 255, 255, 0.07);
-      padding: 15px;
-      margin-top: 10px;
-      border-radius: 10px;
-      word-wrap: break-word;
-      color: #f7c3f0;
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ff006e;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #ff006e;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #ddd;
+      margin-bottom: 2rem;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #ff006e;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: #d4005a;
+    }
+
+    .contact-section {
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      color: #ff006e;
+    }
+
+    .email-button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.75rem 2rem;
+      background: #06d6a0;
+      color: black;
       font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .email-button:hover {
+      background: #04b384;
+    }
+
+    .legal-section {
+      margin-top: 4rem;
+      text-align: left;
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+
+    .legal-section h3 {
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #ff006e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 0.9rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <img src="profile-glam-ruhvaani.png" alt="RuhVaani" class="profile" />
-  <h1>RuhVaani</h1>
-  <div class="tagline">जहाँ हर एहसास एक कहानी है... और हर कहानी में है रूह की वाणी</div>
+  <div class="container">
+    <img src="RuhVaani.png" alt="RuhVaani" class="profile-img" />
+    <h1>RuhVaani</h1>
+    <p class="tagline">Dil se... Kahaniyon Tak – Jahan Jazbaat Bhi Zinda Hain</p>
 
-  <div class="links">
-    <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook</a>
-    <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube</a>
-    <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram</a>
-    <a href="https://amzn.to/3RtUoyh" target="_blank">Amazon</a>
+    <div class="social-links">
+      <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank">YouTube</a>
+      <a href="https://amzn.to/3RtUoyh" target="_blank">Amazon</a>
+    </div>
+
+    <div class="contact-section">
+      <h2>Business & Sponsorship Contact</h2>
+      <a class="email-button" href="mailto:ruhvaaniofficial@gmail.com">Contact</a>
+    </div>
+
+    <div class="legal-section">
+      <h3>Privacy Policy</h3>
+      <p>
+        We respect your privacy. RuhVaani does not collect or share personal data. Third-party platforms such as Facebook,
+        Instagram, and YouTube may collect usage data as per their respective privacy policies. Any collaborations or sponsorships
+        are handled through official communication only.
+      </p>
+
+      <h3>Disclaimer</h3>
+      <p>
+        All stories presented are fictional and for entertainment purposes only. Any resemblance to actual persons or events is purely
+        coincidental. Some links on this page may be affiliate links, and RuhVaani may earn a small commission from qualifying purchases
+        at no extra cost to you.
+      </p>
+
+      <h3>Creative Responsibility</h3>
+      <p>
+        RuhVaani is an independent artist brand. All content, visuals, and storytelling are uniquely created for emotional, romantic,
+        or thrilling experiences. Content may involve voiceovers, AI edits, and dramatization, but is crafted to feel human and real.
+        This website serves as an official identity hub for authenticity verification.
+      </p>
+    </div>
   </div>
-
-  <div class="contact-btn">
-    <a href="#contact">Contact</a>
-  </div>
-
-  <div class="section" id="contact">
-    <h2>Business / Sponsorship Contact</h2>
-    <p>अगर आप ब्रांड को प्रमोट करना चाहते हैं, Sponsorship या किसी अन्य पेशेवर काम के लिए हमसे संपर्क करना चाहते हैं, तो नीचे दिए गए ईमेल पर लिखें:</p>
-    <div class="email-block">ruhvaaniofficial@gmail.com</div>
-  </div>
-
-  <div class="section">
-    <h2>Privacy Policy</h2>
-    <p>यह वेबसाइट केवल मनोरंजन और भावनात्मक अनुभव साझा करने के उद्देश्य से संचालित की जाती है।</p>
-    <p>हम आपके किसी भी व्यक्तिगत डेटा को न तो संग्रह करते हैं, न ही किसी थर्ड पार्टी के साथ साझा करते हैं।</p>
-    <p>हम सहयोग, संवेदना और आत्मसम्मान की भावना के साथ अपने दर्शकों के साथ जुड़ते हैं।</p>
-
-    <h2>Disclaimer</h2>
-    <p>RuhVaani पर प्रस्तुत की गई सभी कहानियाँ और कंटेंट केवल एंटरटेनमेंट, इंस्पिरेशन और भावनात्मक जुड़ाव के लिए हैं।</p>
-    <p>यह किसी प्रकार की कानूनी, चिकित्सीय या व्यावसायिक सलाह नहीं है।</p>
-    <p>कुछ लिंक एफिलिएट हो सकते हैं, जिससे हमें एक छोटा कमीशन मिल सकता है — लेकिन इसका आपकी खरीद पर कोई असर नहीं पड़ता।</p>
-    <p>हम एक स्वतंत्र डिजिटल क्रिएटर ब्रांड हैं और किसी धर्म, जाति या एजेंसी से संबद्ध नहीं हैं।</p>
-  </div>
-
   <footer>
-    © RuhVaani. All rights reserved.
+    All Rights Reserved – RuhVaani
   </footer>
 </body>
 </html>
