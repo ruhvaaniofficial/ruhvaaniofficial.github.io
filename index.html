@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RuhVaani - Jazbaat, Junoon aur Jadoo ki Kahaniyaan</title>
-  <meta name="description" content="RuhVaani - Jazbaat, Junoon aur Jadoo ke saath, hot, romantic, emotional, scary aur funny AI-based kahaniyaan.">
+  <title>RuhVaani - Jazbaat Se Bhari Kahaniyaan Jo Dil Ko Chhoo Jaayein</title>
+  <meta name="description" content="RuhVaani - Hindi mein AI se bani hot, romantic, emotional, funny aur scary kahaniyaan. Jazbaat, Junoon aur Jadoo ke saath har kahaani ek naya ehsaas laati hai.">
   <meta name="keywords" content="RuhVaani, Hindi Stories, AI Stories, Jazbaat, Hot, Romantic, Horror, Funny, Emotional">
   <meta name="author" content="RuhVaani">
+  <meta property="og:title" content="RuhVaani - Jazbaat Se Bhari Kahaniyaan" />
+  <meta property="og:description" content="Hot, Romantic, Emotional aur Scary kahaniyaan - sab kuch ek jagah." />
+  <meta property="og:image" content="https://yourwebsite.github.io/RuhVaani.png" />
+  <meta property="og:url" content="https://yourwebsite.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="RuhVaani.png" type="image/png">
   <style>
     * {
       margin: 0;
@@ -25,8 +31,10 @@
       padding: 2rem 1rem;
     }
     .profile-pic {
-      max-width: 100%;
+      width: 90%;
+      max-width: 300px;
       height: auto;
+      margin-bottom: 1rem;
       border-radius: 20px;
       border: 5px solid #ffffff;
       box-shadow: 0 6px 20px rgba(0,0,0,0.6);
@@ -107,7 +115,7 @@
   <header>
     <img src="RuhVaani.png" alt="RuhVaani Profile Picture" class="profile-pic" />
     <h1>RuhVaani</h1>
-    <p class="tagline">Jazbaat, Junoon aur Jadoo — Har Kahani Mein!</p>
+    <p class="tagline">Jazbaat, Junoon aur Jadoo... RuhVaani ke har lafz mein chhupi hai ek kahani jo aapke dil ko chu jaaye.</p>
     <div class="links">
       <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank">Facebook</a>
       <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank">Instagram</a>
@@ -136,5 +144,16 @@
   <footer>
     Copyright © RuhVaani. All rights reserved.
   </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </body>
 </html>
