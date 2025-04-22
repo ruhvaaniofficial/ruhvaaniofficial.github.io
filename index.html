@@ -46,14 +46,14 @@
       margin-bottom: 1rem;
       border-radius: 20px;
       border: 5px solid #ffffff;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
     }
     h1 {
       margin-top: 1.5rem;
       font-size: 2.8rem;
       color: #ffcc70;
     }
-    p.tagline {
+    .tagline {
       font-size: 1.3rem;
       color: #f5f5f5;
       margin: 1rem 0 2.5rem;
@@ -115,7 +115,7 @@
       h1 {
         font-size: 2rem;
       }
-      p.tagline {
+      .tagline {
         font-size: 1.1rem;
       }
     }
@@ -129,29 +129,32 @@
 </head>
 <body>
   <header>
-    <img src="https://ruhvaaniofficial.github.io/RuhVaani.png" alt="Profile picture of RuhVaani, AI-based Hindi stories creator" class="profile-pic" />
+    <img src="https://ruhvaaniofficial.github.io/RuhVaani.png" alt="RuhVaani Profile Photo" class="profile-pic" />
     <h1>RuhVaani</h1>
     <p class="tagline">Jazbaat, Junoon aur Jadoo... RuhVaani ke har lafz mein chhupi hai ek kahani jo aapke dil ko chu jaaye.</p>
     <div class="links">
       <a href="https://www.facebook.com/ruhvaaniofficial" target="_blank" aria-label="Follow on Facebook">Facebook</a>
       <a href="https://www.instagram.com/ruhvaaniofficial" target="_blank" aria-label="Follow on Instagram">Instagram</a>
       <a href="https://www.youtube.com/@ruhvaaniofficial" target="_blank" aria-label="Follow on YouTube">YouTube</a>
-      <a href="https://amzn.to/3Rop5oy" target="_blank" aria-label="Visit My Amazon Shop">My Amazon Shop</a>
-      <a href="#contact" aria-label="Contact Us">Contact</a>
+      <a href="https://amzn.to/3Rop5oy" target="_blank" aria-label="Visit Amazon Shop">My Amazon Shop</a>
+      <a href="#contact" aria-label="Go to Contact Section">Contact</a>
     </div>
   </header>
+
   <section>
     <h2>Privacy Policy</h2>
     <p>
       यह वेबसाइट केवल व्यक्तिगत ब्रांडिंग और जानकारी प्रदान करने के उद्देश्य से बनाई गई है। हम आपकी किसी भी व्यक्तिगत जानकारी को इकट्ठा नहीं करते हैं। आप जब इस वेबसाइट पर आते हैं, तो आपकी प्राइवेसी हमारे लिए महत्वपूर्ण है और किसी भी प्रकार की जानकारी को स्टोर नहीं किया जाता।
     </p>
   </section>
+
   <section>
     <h2>Disclaimer</h2>
     <p>
       इस वेबसाइट पर दिए गए सभी लिंक, सोशल मीडिया प्रोफाइल, और कंटेंट केवल जानकारी और प्रचार के लिए हैं। यह वेबसाइट RuhVaani के व्यक्तिगत विचारों और प्रस्तुतियों को दर्शाती है। किसी भी प्लेटफार्म की आधिकारिक सहमति या समर्थन का दावा नहीं किया गया है।
     </p>
   </section>
+
   <section id="contact">
     <h2>Contact</h2>
     <p>
@@ -159,9 +162,11 @@
     </p>
     <a href="mailto:ruhvaaniofficial@gmail.com" class="email-link">ruhvaaniofficial@gmail.com</a>
   </section>
+
   <footer>
     &copy; <span id="year"></span> RuhVaani. All rights reserved.
   </footer>
+
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
